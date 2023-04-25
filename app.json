@@ -2,12 +2,12 @@
   "expo": {
     "name": "Dinheiro_em_dia",
     "slug": "Dinheiro_em_dia",
-    "version": "1.0.0",
+    "version": "2.1.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/LogoCarre.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/LogoCarre.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,21 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./assets/LogoAPP.png",
+        "backgroundColor": "#000"
+      },
+      "package": "com.storks.Dinheiro_em_dia"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "179cefa1-aa4b-4ba0-bba5-c4b4e69079c3"
+      }
     }
+  },
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-6981079117529530~5303398533"
   }
 }
