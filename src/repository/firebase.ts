@@ -4,13 +4,13 @@ import { User } from '../interfaces/User';
 import { UserConverter } from './userConverter';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDrzEqM5pDEsfaHdd9mAZqkhNDxlYLZyBw",
-  authDomain: "storks-1df42.firebaseapp.com",
-  projectId: "storks-1df42",
-  storageBucket: "storks-1df42.appspot.com",
-  messagingSenderId: "958544288953",
-  appId: "1:958544288953:web:106e3378a497b3f20a0f68",
-  measurementId: "G-X9SN1ZY9BR"
+  apiKey: "00000000",
+  authDomain: "00000",
+  projectId: "00000",
+  storageBucket: "000000",
+  messagingSenderId: "00000",
+  appId: "000000",
+  measurementId: "00000"
 };
 
 firebase.initializeApp(firebaseConfig);
